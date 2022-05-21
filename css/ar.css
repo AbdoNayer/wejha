@@ -1,0 +1,125 @@
+body {
+    direction: rtl;
+    text-align: right;
+    font: 14px 'JF-Flat', sans-serif;
+}
+
+@font-face {
+    font-family: 'JF-Flat';
+    url('../fonts/JF-Flat-medium.ttf')
+    src: url('../fonts/JF-Flat-regular.ttf'),
+}
+
+#nav-icon3 {
+    float: left;
+}
+
+.selector i{
+    left: 7px;
+}
+
+
+.register_group .nav-tabs .nav-link:before{
+    right: 15px;
+}
+
+.register_group .nav-tabs .nav-link:after{
+    right: 19px;
+}
+
+.form_input .code {
+    right: 10px;
+}
+
+.user_agent {
+    right: 15px;
+}
+
+.link_footer li a i {
+    margin-left: 10px;
+    transform: rotate(180deg);
+}
+
+.block_popular span{
+    left: 20px;
+}
+
+.link_progres li a:before {
+    right: -15px;
+}
+
+.link_progres li:last-child a:before{
+    display: none;
+}
+
+.edit_profile {
+    left: 30px;
+}
+
+.info_comment h6 {
+    margin-right: 50px;
+}
+
+.select_dufalt i {
+    left: 20px;
+}
+
+.close {
+    left: 30px;
+}
+
+.chat_sent .info_chat span {
+    left: 30px;
+}
+.chat_recover .info_chat span {
+    right: 30px;
+}
+
+.chat_sent .info_chat p {
+    border-radius: 10px 10px 0px 10px;
+}
+
+.chat_recover .info_chat p {
+    border-radius: 10px 10px 10px 0px;
+}
+
+.add_person {
+    left: 10px;
+}
+
+.remove_append{
+    left: 10px;
+}
+
+.click_chooser {
+    left: 30px;
+}
+
+.next_table {
+    left: 0;
+}
+
+.prev_table{
+    right: 0px;
+}
+
+/* Media Screen */
+
+@media screen and (max-width: 990px){
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .overlay_mobile{
+        left: 0;
+        transform: translateX(-100%);
+    }
+
+    .Nav_Mobile{
+        right: 0;
+        transform: translateX(100%);
+    }
+
+}
